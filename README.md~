@@ -28,21 +28,15 @@ Reasoning
 ----------
 Description: I decided to use recursion because I had a problem that was 
 easily divided into smaller sub problems. This seemed to be a simpler and 
-more efficient solution than the iterative alternative. However, recursion
-does create a larger stack, which could be a potential problem for very
-large lists. 
+more efficient solution than the iterative alternative.
 
 ----------
 Questions
 ----------
 1. Some possible edge cases that need to be accounted for are: an empty list, 
-a list with only one element, a list with non-unique elements, or something
-that is not a list
+a list with only one element, a list with non-unique elements
 
-2. The growth implications of my algorithm are not excessive because I do not
-make unnecessary copies. Python list slicing does not copy a list, and so the
-memory consumption is good. The time complexity of my algorithm is O(log(n)), 
-since the problem is cut in half each time. 
+2. 
 
 3. If our initial list contained 1 million elements, a more effective solution
 might involve multithreading. If the list could be split up into smaller
